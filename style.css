@@ -76,6 +76,10 @@ nav ul li a:hover {
     color: white;
 }
 
+.nav-phone {
+    display: none;
+}
+
 /* Body */
 
 section {
