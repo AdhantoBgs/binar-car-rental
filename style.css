@@ -25,7 +25,7 @@ nav {
 }
 
 .layout {
-    width: 1168px;
+    width: 81%;
     margin: auto;
 }
 
@@ -84,7 +84,7 @@ nav ul li a:hover {
 
 section {
     display: flex;
-    width: 1168px;
+    width: 81%;
     margin: auto;
     padding-top: 100px;
 }
@@ -97,7 +97,7 @@ section {
 
 .home-container {
     display: flex;
-    width: 1168px;
+    width: 81%;
     margin: auto;
 }
 
@@ -107,7 +107,7 @@ section {
     width: 568px;
     height: 108px;
     line-height: 54px;
-    margin: 77px 32px 16px 0px;
+    margin: 77px 0px 16px 0px;
 }
 
 .header-desc {
@@ -139,7 +139,7 @@ section {
 .img-bg {
     position: relative;
     display: inline-block;
-    z-index: 1;
+    z-index: 0;
 }
 
 .img-bg::before {
@@ -217,26 +217,26 @@ section {
     width: 468px;
     height: 20px;
     line-height: 20px;
-    margin-bottom: 40px;
 }
 
 .cards-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .card {
     border: 1px solid #ddd;
     border-radius: 5px;
-    margin-right: 29px;
+    margin-right: 32px;
+    margin-top: 40px;
     width: 268px;
     height: 196px;
     background-color: #fff;
 }
 
 .card:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .services-icon-thumbs {
@@ -304,7 +304,7 @@ section {
     width: 220px;
     height: 60px;
     line-height: 20px;
-    margin: 0px 0px 24px 24px;
+    margin: 0px 24px 24px 24px;
 }
 
 /* Slider */
@@ -331,8 +331,9 @@ section {
 .slider-card {
     display: flex;
     border-radius: 8px;
-    width: 619px;
-    height: 270px;
+    width: 90%;
+    height: auto;
+    max-width: 619px;
     background-color: #f1f3ff;
     margin-right: 32px;
     margin: 0px 274.5px 0px 274.5px;
@@ -350,8 +351,9 @@ section {
 
 .testimoni {
     font-size: 14px;
-    width: 415px;
-    height: 80px;
+    width: 100%;
+    height: auto;
+    max-width: 415px;
     line-height: 20px;
     margin-bottom: 8px;
 }
@@ -359,7 +361,7 @@ section {
 .rating {
     font-size: 16px;
     color: #f9dc00;
-    margin-top: 69px;
+    margin-top: 60px;
     margin-bottom: 8px;
 }
 
@@ -367,12 +369,16 @@ section {
     list-style: none;
 }
 
+.carousel, .slide {
+    width: 100%;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
     background-color: #d4d4d4;
     width: 40px;
     height: 40px;
-    margin: 119px 0px;
+    margin: auto;
 }
 
 .carousel-control-prev:hover,
@@ -388,13 +394,18 @@ section {
 
 .banner-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    width: 100%;
 }
 
 .banner-container .banner-content {
     display: flex;
-    width: 1168px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
     height: 326px;
     background: #0d28a6;
     border-radius: 5px;
@@ -404,45 +415,36 @@ section {
 }
 
 .banner-header {
-    font-size: 36px;
+    font-size: 2.5rem;
     font-weight: bold;
     color: white;
-    width: 613px;
-    height: 54px;
-    line-height: 54px;
-    margin: 64px 277.5px 16px 277.5px;
 }
 
 .banner-desc {
     font-size: 14px;
     color: white;
-    width: 468px;
-    height: 40px;
-    line-height: 20px;
-    margin: 0px 350px 52px 350px;
     text-align: center;
+    padding-top: 1em;
+    padding-bottom: 3.25em;
 }
 
 .box-button-banner {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
-    width: 140px;
-    height: 36px;
     border-radius: 3px;
     background-color: #5cb85f;
-    margin: 0px 514px 64px 514px;
+    padding: .5rem .8rem;
 }
 
 /* Accordion Content */
 
-.accordion-header {
+.accordion-head {
     font-size: 24px;
     font-weight: bold;
     width: 368px;
     height: 36px;
     line-height: 36px;
-    margin-top: 20px;
     margin-right: 132px;
     margin-bottom: 16px;
 }
@@ -458,6 +460,7 @@ section {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .accordion {
@@ -474,8 +477,8 @@ section {
 .accordion-body {
     background: white;
     font-size: 14px;
-    width: 668px;
-    height: 100px;
+    width: 51em;
+    height: 7em;
     line-height: 20px;
 }
 
@@ -484,7 +487,7 @@ section {
     display: flex;
     border: 1px solid #d4d4d4;
     border-radius: 4px;
-    width: 668px;
+    width: 51em;
     height: 56px;
     background-color: #fff;
 }
@@ -501,13 +504,13 @@ section {
 }
 
 .accordion-collapse {
-    width: 668px;
+    width: 51em;
 }
 
 /* Footer */
 
 footer {
-    width: 1168px;
+    width: 81%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -516,13 +519,15 @@ footer {
 }
 
 .footer-coloum-add {
-    width: 25%;
+    display: inline-block;
+    width: 295px;
     font-size: 14px;
     line-height: 20px;
 }
 
 .footer-coloum {
-    width: 25%;
+    display: inline-block;
+    width: 295px;
     padding: 0 15px;
 }
 
@@ -561,7 +566,7 @@ footer {
     line-height: 32px;
     border-radius: 50%;
     color: whitesmoke;
-    margin-right: 16px;
+    margin-right: 12px;
     transition: all 0.5s ease;
 }
 

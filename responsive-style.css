@@ -1,0 +1,239 @@
+@media only screen and (max-width: 1265px) {
+    footer {
+        flex-direction: column;
+    }
+    
+    .footer-coloum-add,
+    .footer-coloum {
+        margin-bottom: 1.375em;
+        padding: unset;
+    }
+    
+    .footer-coloum ul {
+        padding: unset;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    /* Navbar */
+    nav {
+        display: none;
+    }
+
+    .nav-phone {
+        display: block;
+    }
+
+    .navbar,
+    .bg-body-tertiary,
+    .fixed-top {
+        background-color: #f1f3ff !important;
+        padding: unset !important;
+        z-index: 1 !important;
+    }
+
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        width: 87%;
+    }
+
+    .container-fluid {
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+    }
+
+    .navbar-toggler {
+        border: unset;
+    }
+    .navbar-toggler:focus {
+        box-shadow: unset;
+    }
+
+    .offcanvas, 
+    .offcanvas-end {
+        width: 11.25em !important;
+    }
+
+    .offcanvas-title {
+        font-size: .875em;
+        font-weight: bold;
+    }
+
+    nav {
+        line-height: 1.25em;
+    }
+    
+    .nav-link {
+        display: unset;
+        color: black;
+    }
+
+    .nav-item {
+        font-size: .875em;
+        margin-bottom: 1em;
+    }
+
+    .navbar-brand {
+        font-size: 1.125em;
+        font-weight: bold;
+        font-family: Arial;
+        text-decoration: none;
+        color: #0d28a6;
+    }
+
+    .box-button-navbar {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        background-color: #5cb85f;
+        color: white;
+        padding: .5rem .8rem;
+    }
+
+    /* Body Content */
+    .home-container {
+        flex-direction: column;
+    }
+
+    .img-bg img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .list-pict img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .header-title {
+        font-size: 10vw;
+        width: unset;
+        height: unset;
+    }
+
+    .header-desc {
+        font-size: 4vw;
+        width: unset;
+        height: unset;
+    }
+
+    .list-header {
+        font-size: 6.5vw;
+        width: unset;
+        height: unset;
+    }
+
+    .list-desc {
+        font-size: 4vw;
+        width: unset;
+        height: unset;
+    }
+
+    /* Card */
+    .cards-container {
+        flex-direction: column;
+    }
+    
+    .card {
+        width: 20em;
+    }
+
+    .card-desc {
+        font-size: 4vw;
+        width: unset;
+        height: unset;
+    }
+
+    /* Slider */
+    .slider-card {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider-card img {
+        margin: 2.5em auto 1.5em auto;
+    }
+
+    .testimoni {
+        width: 100%;
+        max-width: none;
+    }
+
+    .rating {
+        margin: auto;
+
+    }
+
+    .slider-header,
+    .slider-desc {
+        margin: auto;
+        margin-bottom: 1em;
+    }
+
+    /* Banner */
+    .banner-container .banner-content {
+        height: 25em;
+    }
+
+    .banner-header {
+        font-size: 7vw;
+        width: unset;
+        height: unset;
+        padding: 0em 1em;
+    }
+
+    .banner-desc {
+        font-size: 3vw;
+        padding: 1em 1em 2.5em 1em;
+    }
+
+    /* Accordion */
+    .accordion {
+        width: 100%;
+    }
+    
+    .accordion-button,
+    .accordion-body,
+    .accordion-collapse {
+        width: 100%;
+        font-size: 4vw;
+    }
+
+    .accordion-header {
+        line-height: unset;
+        width: 100%;
+    }
+
+    .accordion-desc {
+        font-size: 4vw;
+        margin-bottom: 1.5em;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-coloum-add,
+    .footer-coloum {
+        margin-bottom: 1.375em;
+        padding: unset;
+    }
+
+    .footer-coloum ul {
+        padding: unset;
+    }
+}
+
